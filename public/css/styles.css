@@ -1,0 +1,31 @@
+body{ 
+    background-color: #1c3b3a;
+    }
+
+.container{ background-color: #1c3b3a; }
+
+.card{ background-color: #1c3b3a; }
+
+.card-content{ background-color: #1c3b3a; }
+
+#form-card{ background-color: #1c3b3a; }
+
+#head { color: green; 
+        padding: 0 0 0 20%;
+    }
+
+@font-face{
+    font-family: GoogleSans;
+    src: url('../font/ProductSans_Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: GoogleSans;
+    src: url('../font/ProductSans_Regular.ttf');
+}
+
+*{
+    font-family: GoogleSans;
+    color: white;
+}

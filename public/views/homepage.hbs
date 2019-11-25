@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            {{PageTitle}}
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="icon" href="../img/favicon.png">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <body>
+        {{!-- {{>header}} --}}
+        <div class="container">
+
+            <header id="head">
+                <h2> URL Shortener </h2>
+            </header>
+
+
+            <div class="row">
+                <br>
+                <br>
+                <br>
+                
+                <div class="col l8 offset-l2"> 
+
+                    <div class="card" id="form-card">
+                        <p class="card-content">
+                            
+                            <b>Use this URL to shorten your other URLs! </b>
+                
+                        </p>    
+                    
+                        
+                        <div class="container">    
+                            <form id="card-form"> 
+                                <input placeholder="Enter your URL" type="url">
+                                <button class=" green lighten-2 btn waves-effect waves-light" id="URLButton" type="submit">
+                                    Search
+                                </button>
+                            </form>
+
+                            <br>
+                            
+                            <b><p id="message-1"></p></b>
+                            <br>
+                            <br>
+                        </div>    
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </body>
+
+    <script src = "../script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
