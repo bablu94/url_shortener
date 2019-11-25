@@ -1,7 +1,7 @@
 Steps to run the project:
 
-Clone the repo.
-Open terminal inside the project directory.
-Run npm install
-Run npm start
-Open localhost:2000 in your browser.
+1. Clone the repo.
+2. Open terminal inside the project directory.
+3. Run npm install
+4. Run npm start
+5. Open localhost:2000 in your browser.
